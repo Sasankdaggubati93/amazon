@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rating</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h3>
+        <span class="project-title">Search bar</span>
+      </h3>
+    </header>
+    <main>
+      <div class="container">
+        <div class="searchBox">
+          <label for="search">Search users</label>
+          <input type="search" id="search" placeholder="start typing. . ."/>  
+        </div>
+        <div class="user-cards" data-user-card-container>
+          <template data-user-template>
+            <div class="card">
+              <div class="header" data-header></div>
+              <div class="body" data-body></div>
+            </div>
+          </template>
+        </div>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+  </div>
+  <script src="main.js" defer></script>
+</body>
+</html>
